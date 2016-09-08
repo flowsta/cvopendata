@@ -1,0 +1,542 @@
+#+Title: Conocimiento abierto, Medialab-Prado, IODC16
+#+Author: Adolfo Antón Bravo
+#+Email: adolfo@medialab-prado.es
+
+#+OPTIONS: reveal_center:t reveal_progress:t reveal_history:nil reveal_control:t
+#+OPTIONS: reveal_rolling_links:t reveal_keyboard:t reveal_overview:t num:nil
+#+OPTIONS: reveal_width:1200 reveal_height:800
+#+OPTIONS: toc:nil
+#+REVEAL_MARGIN: 0.1
+#+REVEAL_MIN_SCALE: 0.5
+#+REVEAL_MAX_SCALE: 2.5
+#+REVEAL_TRANS: linear
+#+REVEAL_THEME: white
+#+REVEAL_HLEVEL: 2
+#+REVEAL_HEAD_PREAMBLE: <meta name="description" content="Plantilla de Org-Reveal.">
+#+REVEAL_POSTAMBLE: <p> Creado por adolflow. </p>
+#+REVEAL_PLUGINS: (markdown notes)
+#+REVEAL_ROOT: https://cdn.jsdelivr.net/reveal.js/3.0.0/
+
+
+
+* Conocimiento abierto, Medialab-Prado, IODC16
+
+- Curso de Verano de UPV
+- Hashtag: [[https://twitter.com/hashtag/CVOpenData?src=hash][#CVOpenData]]
+- Twitter: [[https://twitter.com/adolflow][@adolflow]]
+- Github: [[https://github.com/flowsta][flowsta]]
+
+
+** Conocimiento abierto
+   :PROPERTIES:
+   :reveal_background: https://farm4.staticflickr.com/3845/14550212438_88d593160a_k_d.jpg
+   :END:
+
+** Medialab-Prado
+   :PROPERTIES:
+   :reveal_background: https://farm6.staticflickr.com/5035/14201717641_bfb6514a49_k_d.jpg
+   :END:
+
+** IODC16
+   :PROPERTIES:
+   :reveal_background: http://www.eventoralia.com/img/iodc16-ON-horizontal-espanol.jpg
+   :END:
+
+* Walter Benjamin: Ángelus Novus (Paul Klee, 1920)
+  :PROPERTIES:
+  :reveal_background: http://3.bp.blogspot.com/-C365xD3hkFY/UUTwPoE1qdI/AAAAAAAAAk0/C6ewQn_V--I/s1600/angelus-novus-de-paul-klee-y-retrato-de-walter-benjamin.jpg
+  :END:
+
+** Contexto: modernidad, esa tempestad que llamamos progreso
+
+#+BEGIN_HTML
+<blockquote>
+Se ve en él a un Ángel al parecer en el momento de alejarse de algo sobre lo cual
+clava su mirada. Tiene los ojos desencajados, la boca abierta y las
+alas tendidas. El ángel de la Historia debe tener ese aspecto. Su cara
+está vuelta hacia el pasado. En lo que para nosotros aparece como una
+cadena de acontecimientos, él ve una catástrofe única, que acumula sin
+cesar ruina sobre ruina y se las arroja a sus pies. El ángel quisiera
+detenerse, despertar a los muertos y recomponer lo despedazado. Pero
+una tormenta desciende del Paraíso y se arremolina en sus alas y es
+tan fuerte que el ángel no puede plegarlas... Esta tempestad lo arrastra
+irresistiblemente hacia el futuro, al cual vuelve las espaldas
+mientras el cúmulo de ruinas sube ante él hacia el cielo. *Tal
+tempestad es lo que llamamos progreso*
+</blockquote>
+#+END_HTML
+
+** Metáfora
+
+La sociedad ha construido una *ilusión de progreso ascendente* donde los
+viejos esquemas quedan atrás y la promesa de un futuro pleno se abre
+en el horizonte.
+
+Entre las ruinas queda la *religión* como algo superado y sobre el cual
+el ser mítico quisiera regresar, buscando quizá la vieja certidumbre
+de *un orden que se imponga al caos que vive en la tempestad*.
+
+El Angelus Novus es la imagen que la sociedad moderna se ha construido de sí misma. 
+
+** Sociedad de la Información
+De la sociedad industrial a la sociedad de la información y del
+conocimiento, sociedad postindustrial.
+
+- Precedentes: telares de Jacquard
+- Máquina de vapor de Watts
+- Porgramación de Ada
+- Cambio acelerado durante y tras la II Guerra Mundial.
+- 1948: Teoría matemática de la información de Shannon y Weaver,
+  apoyada e Markov, Tukey, Von Neumann, Turing, Wiener...
+
+** Invenciones, desarrollos
+- Cadenas de Markov, probabilidad de que ocurra un evento
+- Tukey: bit
+- Turing: máquina universal
+- Wiener: cibernética
+- Grace Hooper: Cobol
+
+** Cibernética
+
+- Del griego /kybernetes/ (piloto, timonel o regulador), Platón y en
+  el siglo XIX André Marie Ampere para referirse a los modos de gobierno
+- Wiener: ciencia que se ocupa de los mecanismos de control y de
+  comunicación en el animal y la máquina
+- Retroalimentación o /feedback/ e /inteligente/: recepción,
+  procesamiento, emisión.
+- Cuerpo humano como una máquina que cuenta con sistemas complejos de
+  información -sistema nervioso, sistema hormonal- donde se produce
+  comunicación eléctrica.
+- Cibernética de segundo orden, Heinz von Foerster expone en 1970 para
+  referirse a los sistemas que son capaces de modificarse por si
+  mismos, sin necesidad de ser guiados (/driven/) desde fuera
+
+** ¿Os suena de algo?
+
+- Teorías de redes
+- Espacio virtual de la comunicación
+- Relaciones horizontales, descentralizadas, dinámicas y circulares
+- Sistemas inteligentes
+- /Smart cities/
+- Todo comportamiento biológico, físico y social como programados y reprogramables.
+
+** Lenguaje de los nuevos medios, lenguaje de la sociedad
+
+Lev Manovich en el lenguaje de los nuevos medios habla de:
+
+- Representación numérica
+- Modularidad
+- Automatización
+- Variabilidad
+- Transcodificación
+
+* Periodismo de Datos: Philip Meyer
+  :PROPERTIES:
+  :reveal_background: http://newstories.jomc.unc.edu/wp-content/uploads/MEYER-PHILIP-1-25-99.jpg
+  :END:
+** The Miami Herald
+#+attr_html: :width 200
+http://newstories.jomc.unc.edu/wp-content/uploads/MEYER-PHILIP-1-25-99.jpg
+
+- Comienza su actividad periodística en The Miami Herald (1958-62).
+- Precedente de Meyer al periodismo de datos:
+ - Alguien se queja del alto coste de los seguros escolares contra
+   incendios y huracanes
+ - Ese coste lo establecía un consejo de funcionarios.
+ - Cruza los nombres del consejo con personas de empresas
+ - Resultado: el 65% de la financiación de las campañas electorales
+   procedían de empresarios de seguros.
+
+** Ciencias sociales
+    :PROPERTIES:
+    :reveal_background: http://computer-history.info/Page4.dir/pages/IBM.7090.dir/images/ibm.7090.jpg
+    :END:
+
+*** Ciencias Sociales
+#+attr_html: :width 200
+http://computer-history.info/Page4.dir/pages/IBM.7090.dir/images/ibm.7090.jpg
+
+ - En Harvard Computation Center (1966) utiliza un IBM 7090.
+ - Busca predecir los resultados electorales de Ohio sin éxito.
+ - Durante su beca en Nieman estudia métodos de investigación de las ciencias sociales para aplicarlos al periodismo.
+ - Cada estudiante disponía de 120 segundos para utilizar el ordenador.
+ - Lo emplea con datos tabulados sobre /Harvard Data-Text/, el predecesor de /SPSS/ (/Statistical Package for the Social Sciences/).
+ - Intercambia minutos de uso del IBM por artículos para Nieman.
+*** Detroit Riots
+    :PROPERTIES:
+    :reveal_background: http://www.home.isr.umich.edu/wp-content/uploads/2011/04/freepress_article.png
+    :END:
+1967, largo y cálido verano
+
+** Investigación
+#+attr_html: :width 300
+http://www.home.isr.umich.edu/wp-content/uploads/2011/04/freepress_article.png
+
+Revueltas de la ciudad de Detroit 1967
+
+ - Tras una semana de incidentes, hay 46 personas muertas.
+ - Se propone realizar, además de las historias periodísticas clásicas, una encuesta que busque las causas de la revuelta.
+ - La Universidad de California había realizado un informe sobre las
+   revueltas en Watts 1965. Les llevó dos años.
+
+(esto hicieron en 1973 WattStax)
+https://www.youtube.com/watch?v=8lCI63H1neY
+
+** Encuesta
+
+- Meyer se propone seguir el mismo método que la UCLA
+- Reducir el tiempo a hacerlo en tan solo tres semanas.
+- Equipo:
+ - Dos psicólogxs
+ - Una programadora informática
+ - 50 entrevistadorxs.
+ - Programa /Filter Tau/ sobre un /IBM 360/40/ 
+*** IBM 360/40
+    :PROPERTIES:
+    :reveal_background: https://upload.wikimedia.org/wikipedia/commons/8/8d/Bundesarchiv_B_145_Bild-F038812-0014,_Wolfsburg,_VW_Autowerk.jpg
+    :END:
+
+
+** Periodismo de precisión
+#+attr_html: :width 300
+https://upload.wikimedia.org/wikipedia/commons/8/8d/Bundesarchiv_B_145_Bild-F038812-0014,_Wolfsburg,_VW_Autowerk.jpg
+
+ - El uso de métodos de análisis de las ciencias sociales unido a software estadístico y ordenadores para construir una historia periodística lo definen como *periodismo de precisión* (1969).
+ - Desmontan la teoría /Riff-Raff/ (revuelta para el avance) y la
+   /Assimilation/ (migraciones)
+- La teoría que triunfa es la de las aspiraciones cortadas: ver cómo los demás progresan mientras tú te estancas causa frustración.
+ - Su trabajo se traduce en un libro fundamental: /Precision Journalism: A Reporter's Introduction to Social Science Methods/ (1973)
+
+** Computer Assisted Reporting...
+ - La sociedad de la información produce abundancia de información.
+ - Lo que a su vez origina un problema de atención.
+ - Se sacrifica todo en pro de la atención, incluso la verdad.
+ - Cuando decía atención, entendamos ahora /analytics/
+ - CAR ha promovido un alto estándar de noticias que cuentan la verda
+ - Aprender a manejar grandes cantidades de información con herramientas analíticas más potentes.
+ - El ordenador ayuda pero el ordenador no es el objetivo ni define lo que es el periodismo.
+ - Situamos al periodismo a nivel de la ciencia y del arte.
+
+** ...is dead
+
+- La vía artística facilita la función del periodismo como entretenimiento.
+- Cuando la atención es más importante que la historia, el mercado recompensa a aquellos que tienen habilidades en la creación de apariencias.
+- Para favorecer la verdad en el periodismo, podemos practicar periodismo de precisión.
+- Superar las ilusiones, la superstición, la percepción selectiva y las otras debilidades humanas que dificultan la adquisición de conocimientos.
+
+
+* Precedentes
+
+** Florence Nightingale 1820-1910
+#+attr_html: :width 300
+https://upload.wikimedia.org/wikipedia/commons/b/bb/Crimean_War%3B_Florence_Nightingale_at_Scutari_Hospital,_1856,_Wellcome_V0015400.jpg
+
+- Enfermera, escritoria y estadística
+- Considerada pionera de la enfermería moderna.
+- Creadora del primer modelo conceptual de enfermería.
+*** Causas de fallecimiento en la Guerra de Crimea
+    :PROPERTIES:
+    :reveal_background: http://www.frogheart.ca/wp-content/uploads/2014/02/Rose_FlorenceNightingale1.jpeg
+    :END:
+** Charles Minard 1781-1870
+
+http://www.ine.es/expo_graficos2010/imagenes/Minard_09_10_11.jpg
+
+- Ingeniero civil francés
+- Estudia ciencia y matemáticas
+
+*** Napoleón en Rusia
+    :PROPERTIES:
+    :reveal_background: https://upload.wikimedia.org/wikipedia/commons/2/29/Minard.png
+    :END:
+*** Migrantes
+    :PROPERTIES:
+    :reveal_background: https://cartographia.files.wordpress.com/2008/05/minard-full.jpg
+    :END:
+
+*** Algodón y lana
+    :PROPERTIES:
+    :reveal_background: https://cartographia.files.wordpress.com/2008/06/cotton-and-wool-58-to-61.jpg
+    :END:
+*** Algodón y lana, II
+    :PROPERTIES:
+    :reveal_background: https://cartographia.files.wordpress.com/2008/06/cotton-and-wool-58-to-61-graph.jpg
+    :END:
+*** Viva el vino
+    :PROPERTIES:
+    :reveal_background: https://cartographia.files.wordpress.com/2008/06/wine-and-spirit-tonnage.jpg
+    :END:
+*** Ríos y puertos
+    :PROPERTIES:
+    :reveal_background: https://cartographia.files.wordpress.com/2008/06/port-and-river-tonnage.jpg
+    :END:
+*** Exportaciones de carbón británico
+    :PROPERTIES:
+    :reveal_background: https://cartographia.files.wordpress.com/2008/06/english-coal-exports.jpg
+    :END:
+
+* Medialab-Prado
+  :PROPERTIES:
+  :reveal_background: http://photos4.meetupstatic.com/photos/event/4/d/d/e/highres_435379934.jpeg
+  :END:
+
+** Grupo de trabajo de #periodismodatos
+- En funcionamiento desde el 20 de octubre de 2011.
+- Se inauguró tras un seminario organizado por Medialab Prado, Access Info Europe y la Fundación ciudadana Civio.
+- José Luis de Vicente, Victoria Anderica, David Cabo, Alberto Cairo, Pepe Cervera, Antonio Delgado y Mar Cabra. 
+- Durante este tiempo hemos realizado numerosas actividades:
+ - [[http://medialab-prado.es/article/periodismo_de_datos_-_grupo_de_trabajo][29 sesiones mensuales]], la última fue la organización del [[http://madrid.opendataday.org][29 sesiones mensuales]].
+ - Talleres de producción de periodismo de datos, [[http://medialab-prado.es/article/iii-taller-de-produccion-de-periodismo-de-datos-explorando-la-desigualdad][tres ediciones]]
+ - [[http://jpd16.okfn.es][Jornadas de Periodismo de Datos]], del 5-7 mayo celebramos la cuarta edición.
+- Difusión:
+ - [[http://listas.medialab-prado.es/cgi-bin/mailman/listinfo/grupoperiodismodatos][Lista de correo]]
+ - Hashtag [[https://twitter.com/search?q=periodismodatos&src=typd][#periodismodatos]].
+ - [[http://www.meetup.com/es-ES/Madrid-Periodismo-de-datos-Meetup/][Meetup]]
+* Competencias
+#+attr_html: :width 600
+http://m.cdn.blog.hu/me/media20/image/roles_in_the_newsroom.jpg
+- Periodista con competencias informáticas
+- Desarrollador de aplicaciones de noticias
+- Especialista en visualización de datos
+** Proceso
+   :PROPERTIES:
+   :reveal_background: https://upload.wikimedia.org/wikipedia/commons/4/48/Data_driven_journalism_process.jpg
+   :END:
+*** Las 3 dimensiones
+    :PROPERTIES:
+    :reveal_background: http://knightlab.northwestern.edu/wp-content/uploads/2013/06/venn-3-dimensions-of-data-journalism.png
+    :END:
+
+*** The Hacker Journalist
+    :PROPERTIES:
+    :reveal_background: http://www.knightfoundation.org/media/uploads/media_images/Screen_shot_2011-06-22_at_8.51.41_AM.png
+    :END:
+*** Infografía
+    :PROPERTIES:
+    :reveal_background: http://cdn1.mumbrella.com.au/uploads/2013/02/Screen-Shot-2013-02-18-at-9.08.02-AM.png
+    :END:
+
+** Recursos
+*** Markus Mandalka
+http://www.mandalka.name/investigative_journalism/
+*** ProPublica
+**** Open Data Institute 2016
+- URL: https://projects.propublica.org/graphics/data-institute-2016
+- Licencia: https://creativecommons.org/licenses/by-nc-nd/3.0/us/
+
+An intensive workshop on how to use data, design and code for
+journalism. From June 1st to 15th in New York City.
+
+** Término periodista de datos
+
+- Periodista de Datos Abiertos, de la Web: comienza a utilizarse a
+  partir de 2011
+- Distintas competencias y aptitudes.
+- /Data Journalist/, periodista de datos, el término más utilizado en la actualidad.
+- /Computer-assisted reporter/, reportero asistido por ordenador, del original norteamericano previo a Philip Meyer pero consolidado con su /precission journalism/ o periodismo de precisión.
+- /Newsroom developer/ o desarrollador de redacción.
+- /Journo-geek/ o periodista geek, en inglés el juego de palabras funciona mejor.
+
+*** Pero no solo
+Y se añaden algunos más:
+
+- /Journo-coder/, una especie de /perio-programador/
+- /Programmer-journalist/: programador-periodista.
+- /Hacker-journalist/: hacker-periodista
+- /Journo-programmer/: /perio-programador/
+
+
+** Ejemplos
+   :PROPERTIES:
+   :reveal_background: http://mediashift.org/wp-content/uploads/sites/8/2014/06/data-journalism_AnnaSchiller.jpg
+   :END:
+
+* Open Knowledge
+** Open Knowledge International
+
+Se refiere al conocimiento abierto aquello que es libre:
+
+- Utilizar
+- Reutilizar
+- Redistribuir
+
+Sin Restricciones:
+
+- Legales
+- Sociales
+- Tecnológicas
+** Y también
+Conjunto de principios y metodologías relacionadas con la:
+
+- Producción
+- Distribución
+
+de conocimiento de forma abierta
+
+** Definición de Conocimiento Abierto
+- URL: http://opendefinition.org/od/2.0/es/
+- Traducción: Antonio F. Rodríguez y Lorena Hernández
+
+La Definición de Conocimiento Abierto aporta precisión al significado
+del término «abierto» (open) cuando se aplica al conocimiento y
+promueve un procomún robusto en el que cualquiera puede participar,
+maximizando su interoperabilidad.
+
+#+BEGIN_HTML 
+<blockquote>Resumen: El conocimiento es abierto si cualquiera es libre para
+acceder a él, usarlo, modificarlo y compartirlo bajo condiciones que,
+como mucho, preserven su autoría y su apertura.
+</blockquote>
+#+END_HTML
+
+*** Otras licencias
+
+- Relación con el concepto de abierto (open) como el software de la
+  [[http://opensource.org/docs/osd][Open Source Definition]]
+- Sinónimo de libre (free) en el sentido de la Free Cultural Works
+- Que a su vez deriva de las directrices de Debian Free Software
+  Guidelines
+
+*** ¿Obra? ¿Producto? ¿Proyecto? ¿Software?
+
+El término *obra* se utilizará para denominar *cualquier elemento* o
+*porción de conocimiento* que pueda *intercambiarse*.
+
+El término *licencia* se refiere a las /condiciones legales bajo las
+cuales está disponible la obra/. Cuando no se habilite ninguna
+licencia, se interpretará que se refiere a las condiciones legales por
+defecto bajo las cuales se proporciona la obra (por ejemplo copyright
+o dominio público).
+
+*** Obra abierta
+
+**** Licencia abierta
+**** Acceso abierto
+Disponible como un todo y a no más de un coste razonable de
+reproducción, preferiblemente descargable de manera gratuita a través
+de Internet.
+**** Formato abierto
+Debe proporcionarse en forma conveniente y modificable, de manera que
+no haya obstáculos tecnológicos innecesarios para la eficaz aplicación
+de los derechos otorgados por la licencia.
+
+Concretamente, los datos deben poder ser *leídos automáticamente*, estar
+*disponibles de una sola vez* y proporcionarse en un *formato abierto* (es
+decir, un formato que tenga sus *especificaciones disponibles pública,
+libre y gratuitamente*, que no imponga restricciones, económicas o de
+otro tipo sobre su uso) o, al menos, que puedan ser procesados con una
+herramienta de *software libre*.
+*** Licencias abiertas
+Una licencia es abierta si sus términos satisfacen las siguientes condiciones:
+**** Permisos requeridos
+
+La licencia debe de manera irrevocable permitir lo siguiente:
+
+- Uso libre
+- Redistribución, incluida su venta, en sí misma o como parte de una
+  colección de obras de distintas fuentes.
+- Modificación, lo que premite creación de obras derivadas, las cuales
+  tendrán la misma licencia.
+- Separación, que se pueda usar parte de la obra, distribuirse o
+  modificarse por separado, conservando la licencia.
+- Compilación, se permite distribuir la obra licenciada junto con
+  otras obras distintas sin poner restricciones sobre esas otras
+  obras.
+- No discriminación de ninguna persona o grupo.
+- Propagación: los derechos se aplican sin necesidad de aceptar
+  términos legales adicionales.
+- Aplicación para cualquier propósito: uso, redistribución,
+  modificación y compilación con cualquier propósito.
+- Sin coste, sin tarifas, regalías o cualquier otra compensación o
+  remuneración económica.
+*** Condiciones aceptables
+- Reconocimiento, mientras que tales prescripciones no sean onerosas
+- Integridad, que las versiones modificadas lleven un nombre o número de
+  versión diferente de la de la obra original, o bien que se indiquen
+  los cambios realizados.
+- Compartir igual, que las copias u obras derivadas permanezcan bajo
+  la misma licencia, o una similar a la original.
+- Aviso, que se mantenga el aviso de derechos de autor (copyright) y
+  la identificación de la licencia originales.
+- Fuente, puede requerir que las obras modificadas estén disponibles
+en una forma preferida para posteriores modificaciones.
+- Prohibición de restricciones técnicas, puede prohibir la
+  distribución de la obra cuando haya condiciones técnicas que
+  impongan restricciones sobre el ejercicio de derechos en otro caso
+  permitidos.
+- No agresión, puede requerir a quien modifique la obra que garantice
+  los permisos públicos adicionales (por ejemplo, licencias de
+  patentes) requeridos para el ejercicio de los derechos otorgados por
+  la licencia. La licencia puede también condicionar los permisos a la
+  no agresión contra los titulares de la licencia con respecto al
+  ejercicio de cualquier derecho permitido (por ejemplo, litigios
+  sobre patentes).
+
+
+
+* Open Knowledge España
+
+URL: http://okfn.es
+
+La Asociación tiene como fines:
+- Promoción del conocimiento abierto para que sea omnipresente como
+  habitual
+- Promoción de la gestión de la información y del conocimiento abierto
+  desde la pluralidad de campos y perspectivas.
+
+** Una reflexión sobre el conocimiento
+#+BEGIN_HTML 
+<blockquote>
+Conocimiento es una palabra muy imponente para un árbol de decisión o una colección de reglas, y por usarla no quiere decir que tenga que ver con el conocimiento que llevamos en nuestras cabezas. Tan solo que necesitamos alguna palabra que se refiera estas estructuras que producen los métodos de aprendizaje. 
+</blockquote>
+#+END_HTML
+
+** Perspectivas OK España
+- Democracia
+- Gobernanza abierta y transparente.
+- Procomún.
+- Ciudadanía activa
+- Ciudades abiertas
+- Apertura a la equidad de género
+- Lenguaje social y diversidad
+- Desarrollo abierto
+- Cooperación internacional
+- Ciencia abierta
+
+** Perspectivas OK España II
+
+- Ciencia abierta
+- Investigación y educación abiertas
+- Negocios y economía abierta
+- Sostenibilidad del conocimiento abierto.
+- Periodismo abierto
+- Visualización de datos
+- Patrimonino cultural abierto
+- Geodatos abiertos
+- Diseño, hardware y software de código abierto.
+
+** Potencial del conocimiento abierto
+Beneficios sociales a corto, medio y largo plazo que incluyen, pero no
+se limitan a:
+
+- Mejor gobernanza: conocimiento abierto y apertura mejora
+  gobernabilidad.
+- Mayor transparencia, creación de canales de participación y
+  compromiso
+- Mejor cultura: la gestión abierta a la cultura favorece el mayor
+  acceso, intercambio y participación en la creación de los materiales y
+obras culturales.
+- Mejor investigación: favorecen el desarrollo científico y
+el uso y beneficio que las sociedades pueden hacer del mismo.
+- Mejor economía
+* Actos en 2016
+
+- [[http://jpd16.okfn.es][Jornadas de Periodismo de Datos]]
+- [[http://bit.ly/visualizar16][Visualizar16]], 26 septiembre a 5 de octubre.
+- School of Data & Data Journalism Con, 4 octubre.
+- Unconference, Open Change for Exchange, 4 de octubre.
+- [[http://opencitiessummit.org][Open Cities Summit]], 5 octubre
+- [[http://opendatacon.org/iodc16/call-for-proposals/][IODC16]], International Open Data Conference, Madrid 6-7 Octubre 2016.
+- Taller de producción de periodismo de datos 2016: *Derechos Humanos y
+  vida cotidiana*. 20-22 octubre y 9-11 diciembre.
+* Gracias
