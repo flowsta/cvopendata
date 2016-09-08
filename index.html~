@@ -1,24 +1,23 @@
 <!DOCTYPE html>
-<html lang="es">
-    <head>
-	<meta charset="utf-8"/>
-	<title>Conocimiento abierto, Medialab-Prado, IODC16</title>
-	<meta name="author" content="(Adolfo Antón Bravo)"/>
-	<link rel="stylesheet" href="http://cdn.jsdelivr.net/reveal.js/3.0.0/css/reveal.css"/>
-	<link rel="stylesheet" href="http://cdn.jsdelivr.net/reveal.js/3.0.0/css/theme/sky.css" id="theme"/>
-	<link rel="stylesheet" href="file:///home/flow/Documentos/software/org-reveal/reveal.css"/>
-	<!-- If the query includes 'print-pdf', include the PDF print sheet -->
-	<script>
-	 if( window.location.search.match( /print-pdf/gi ) ) {
-             var link = document.createElement( 'link' );
-             link.rel = 'stylesheet';
-             link.type = 'text/css';
-             link.href = 'http://cdn.jsdelivr.net/reveal.js/3.0.0/css/print/pdf.css';
-             document.getElementsByTagName( 'head' )[0].appendChild( link );
-	 }
-	</script>
-
-	<meta name="description" content="Plantilla de Org-Reveal.">
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Conocimiento abierto, Medialab-Prado, IODC16</title>
+<meta name="author" content="(Adolfo Antón Bravo)"/>
+<link rel="stylesheet" href="http://cdn.jsdelivr.net/reveal.js/3.0.0/css/reveal.css"/>
+<link rel="stylesheet" href="http://cdn.jsdelivr.net/reveal.js/3.0.0/css/theme/white.css" id="theme"/>
+<link rel="stylesheet" href="http://lab.hakim.se/reveal-js/css/reveal.css"/>
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'http://cdn.jsdelivr.net/reveal.js/3.0.0/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
+<meta name="description" content="Plantilla de Org-Reveal.">
 </head>
 <body>
 <div class="reveal">
@@ -897,38 +896,39 @@ vida cotidiana</b>. 20-22 octubre y 9-11 diciembre.</li>
 <script src="http://cdn.jsdelivr.net/reveal.js/3.0.0/js/reveal.js"></script>
 
 <script>
- // Full list of configuration options available here:
- // https://github.com/hakimel/reveal.js#configuration
- Reveal.initialize({
-     controls: true,
-     progress: true,
-     history: false,
-     center: true,
-     slideNumber: true,
-     rollingLinks: true,
-     keyboard: true,
-     overview: true,
-     width: 1200,
-     height: 800,
-     margin: 0.10,
-     minScale: 0.50,
-     maxScale: 2.50,
-     theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
-     transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/zoom/linear/fade/none
-     transitionSpeed: 'default',
-     multiplex: {
-	 secret: '', // null if client
-	 id: '', // id, obtained from socket.io server
-	 url: '' // Location of socket.io server
-     },
-     // Optional libraries used to extend on reveal.js
-     dependencies: [
-	 { src: 'http://cdn.jsdelivr.net/reveal.js/3.0.0/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-	 { src: 'http://cdn.jsdelivr.net/reveal.js/3.0.0/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-	 { src: 'http://cdn.jsdelivr.net/reveal.js/3.0.0/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
- });
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+
+controls: true,
+progress: true,
+history: false,
+center: true,
+slideNumber: true,
+rollingLinks: true,
+keyboard: true,
+overview: true,
+width: 1200,
+height: 800,
+margin: 0.10,
+minScale: 0.50,
+maxScale: 2.50,
+
+theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/zoom/linear/fade/none
+transitionSpeed: 'default',
+multiplex: {
+    secret: '', // null if client
+    id: '', // id, obtained from socket.io server
+    url: '' // Location of socket.io server
+},
+
+// Optional libraries used to extend on reveal.js
+dependencies: [
+ { src: 'http://cdn.jsdelivr.net/reveal.js/3.0.0/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: 'http://cdn.jsdelivr.net/reveal.js/3.0.0/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: 'http://cdn.jsdelivr.net/reveal.js/3.0.0/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
+});
 </script>
-
-
 </body>
 </html>
